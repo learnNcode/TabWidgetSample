@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_vertical|center_horizontal" >
+
+    <CheckBox
+        android:id="@+id/chekcBoxFromTabOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkTextViewFromTabOne" />
+
+    <TextView
+        android:id="@+id/checkTextViewFromTabOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/chekcBoxFromTabOne"
+        android:text="@string/tab_one"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
